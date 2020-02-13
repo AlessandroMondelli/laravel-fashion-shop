@@ -9,8 +9,6 @@ class HomeController extends Controller
 {
     public function index() {
         $clothes = Cloth::all();
-        dd($clothes);
-        // phpinfo();
-        return view('home');
+        return view('home', ['clothes'=>$clothes]);
     }
 }
