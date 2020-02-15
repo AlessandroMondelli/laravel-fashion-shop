@@ -1,3 +1,3 @@
 <header>
-    <h1>Laravel Shop</h1>
+    <h1><a href="{{ route('homepage') }}">Laravel Shop</a></h1>
 </header>

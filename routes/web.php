@@ -12,4 +12,7 @@
 */
 
 Route::get('/', 'HomeController@index')->name('homepage');
+
+Route::get('/create', 'HomeController@create')->name('create');
+Route::post('/create', 'HomeController@store')->name('store');
 ?>

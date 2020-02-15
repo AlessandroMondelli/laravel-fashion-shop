@@ -10915,8 +10915,21 @@ header h1 {
   margin: 30px 30px;
 }
 
+#shop #create {
+  margin: 0 0 25px;
+}
+
+#shop #create a {
+  color: white;
+}
+
 #shop .cloth-card {
   margin-bottom: 20px;
+}
+
+#create {
+  padding: 80px;
+  margin: 30px;
 }
 
 footer #bool-footer {

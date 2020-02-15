@@ -5,6 +5,9 @@
 @section('content')
 <main>
     <div id="shop">
+        <div id="create-btn" class="text-right">
+            <a class="btn btn-primary" href="{{ route('create') }}">Crea una nuova card</a>
+        </div>
         <div class="container">
             <div class="row">
                 @foreach ($clothes as $cloth)
