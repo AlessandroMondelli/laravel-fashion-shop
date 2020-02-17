@@ -10,7 +10,7 @@
         </div>
         <div class="container">
             <div class="row">
-                @foreach ($clothes as $cloth)
+                @forelse ($clothes as $cloth)
                 <div class="col-lg-4 cloth-card">
                         <div class="card" style="width: 18rem;">
                           <div class="card-body">
@@ -25,7 +25,9 @@
                           </div>
                         </div>
                 </div>
-                @endforeach
+                    @empty
+                <h2>Prodotti non trovati!</h2>
+                @endforelse
             </div>
         </div>
     </div>
